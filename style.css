@@ -29,6 +29,21 @@ body {
 /* my css */
 
 .emojis{
+  display: grid;
+  grid-template-columns: repeat(2, 417px);
+  gap: 16px;
+}
+
+.emoji {
   display: flex;
-  
+  flex-direction: column;
+}
+
+.icon{
+  order: -1;
+  align-self: center;
+}
+
+.emoji p {
+  flex-grow: 1;
 }
